@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__box--left p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    background-image: url(../../img/start-screen-gradient-background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.header__box--left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__box--right {
+    align-items: center;
+}
+
+.header__box--right ul {
+    display: flex;
+    gap: 35px;
+}
+
+.nav__list--item:hover {
+    color: burlywood;
+    transition: all 0.7s;
+}
+
+.nav__list {
+    list-style: none;
+}
+
+
+
+.nav__list--item {
+    text-decoration: none;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #FAFAFA;
+}
+
+.header {
+    padding: 60px 0 30px 0;
+}
+
+.not__only--section .not__only--box {
+    padding: 30px 0 0 0;
+}
+
+.not__only--box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.not__only--left-box {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.not__only--left-box h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    max-width: 310px;
+    width: 100%;
+}
+
+.not__only--left-box p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #CDCDCD;
+    max-width: 460px;
+    width: 100%;
+}
+
+.not__only--left-box button {
+    background: #F1CDB3;
+    border-radius: 100px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border: none;
+    outline: none;
+    padding: 15px 45px 15px 45px;
+    max-width: 208px;
+    max-height: 52px;
+    height: 100%;
+    width: 100%;
+}
+
+.not__only--left-box {
+    margin-top: 203px;
+}
+
+.about__the--section {
+    padding: 80px 0 100px 0;
+}
+
+.about__the--box {
+    justify-content: center;
+    display: flex;
+    gap: 120px;
+}
+
+
+
+.about__the--box h2 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.p1__about--the {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+    max-width: 430px;
+    width: 100%;
+}
+
+.p2__about--the {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #4C4C4C;
+    max-width: 430px;
+    width: 100%;
+}
+
+.about__the--right-box {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.about__the--right-box h3 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    max-width: 370px;
+    width: 100%;
+}
+
+.of__top h2 {
+    text-align: center;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.our__friend--box {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.animals {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: #FAFAFA;
+    border-radius: 9px;
+}
+
+.animals h5 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.animals button {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    background: #FAFAFA;
+    border-radius: 9px;
+    border-color: #F1CDB3;
+    outline: none;
+}
+
+
+.animals__card {
+    display: flex;
+    gap: 90px;
+}
+
+
+.h2__animals {
+    max-width: 400px;
+    width: 100%;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+.animals__list {
+    list-style: none;
+    display: flex;
+    gap: 90px;
+}
+
+
+.of__foot1 {
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+
+.of__foot2 button {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    background: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    padding: 15px 45px;
+    justify-content: center;
+}
+
+.animals__card--h5-button {
+    background: #FAFAFA;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.animals__card--h5-button h5 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.animals__card--h5-button button {
+    padding: 20px 40px 15px 40px;
+
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    border-radius: 100px;
+    background: #FAFAFA;
+    border-color: orange;
+    outline: none;
+    max-width: 187px;
+    width: 100%;
+}
+
+.section__animals {
+    padding: 80px 0 100px 0;
+    background: #F6F6F6;
+}
+
+.of__h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+
+.button__get__know button {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+    padding: 15px 45px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
