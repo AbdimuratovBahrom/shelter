@@ -311,6 +311,21 @@
     align-items: center;
 }
 
+.animals__card--h5-button__woody button:hover {
+    background-color: #F1CDB3;
+    transition: all 0.9s;
+}
+
+.animals__card--h5-button button:hover {
+    background-color: #F1CDB3;
+    transition: all 0.9s;
+}
+
+.animals__card--h5-button__jennifer button:hover {
+    background-color: #F1CDB3;
+    transition: all 0.9s;
+}
+
 .animals__card--h5-button__jennifer {
     background: #FAFAFA;
     border-radius: 9px;
@@ -767,8 +782,18 @@
     gap: 30px;
     align-items: center;
 }
-.animals__help--sophia{
-background: #FAFAFA;
+
+.animals__help--woody {
+    background: #FAFAFA;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.animals__help--sophia {
+    background: #FAFAFA;
     border-radius: 9px;
     display: flex;
     flex-direction: column;
@@ -879,6 +904,7 @@ background: #FAFAFA;
     border-radius: 100px;
     background: none;
 }
+
 .of__button__1 {
     border: 2px solid #F1CDB3;
     color: #292929;
@@ -921,7 +947,7 @@ background: #FAFAFA;
     letter-spacing: 0.06em;
     color: #292929;
     border-radius: 100px;
- }
+}
 
 @media (max-width:768px) {
     .animals__card {
@@ -976,7 +1002,7 @@ background: #FAFAFA;
         display: none;
     }
 }
-           
+
 @media (max-width:888px) {
     .animals__card {
         flex-wrap: wrap;
@@ -1025,12 +1051,202 @@ background: #FAFAFA;
 
 @media (max-width:1180px) {
     .animals__help-scarlet {
-     display: none;
+        display: none;
     }
+
     .animals__help--fredde {
-     display: none;
+        display: none;
     }
+
     .our__pets--pet-block__bottom {
         justify-content: center;
     }
+}
+
+.swiper {
+    width: 800px;
+    height: 500px;
+}
+
+@media (max-width:560px) {
+    .img__you--can-box img {
+     width: 300px;
+    }
+}
+
+@media (max-width: 560px) {
+    .text__you--can-box button {
+        width: 80%;
+        font-size: 15px;
+    }
+    .text__you--can-box{
+     font-size: 25px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 15px;
+    }
+}
+
+
+@media (max-width:480px) {
+    .header__box--right ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+    }
+}
+  
+
+@media (max-width:340px) {
+    .not__only--left-box h2 {
+        font-size: 34px;
+        text-align: center;
+    }
+}
+
+@media (max-width:1200px) {
+    .our__pets--pet-block__top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:905px) {
+   .our__pets--pet-block__top {
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .our__pets--pet-block__bottom {
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+}
+}
+@media (max-width:430px) {
+    .of__button {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:475px) {
+    .header__box--right-our__pet ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
+}
+@media (max-width:) {
+    
 }
